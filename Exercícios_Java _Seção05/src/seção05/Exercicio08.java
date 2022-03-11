@@ -20,7 +20,6 @@ public static void main(String[] args) {
 	}
 	
 	System.out.println("Maior é: "+Maior+". E menor é: "+Menor);
-	System.out.println(Menor);
 	
 	in.close();
 }	

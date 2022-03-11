@@ -8,13 +8,13 @@ public class Exercicio02 {
 			System.out.println(i);
 		}
 		
-		while(a != 101) {
+		while(a <= 100) {
 			System.out.println(a++);
 		}
 		
 		do {
 			System.out.println(a++);
-			}while(a!= 101);
+			}while(a <= 100);
 
 		
 		
