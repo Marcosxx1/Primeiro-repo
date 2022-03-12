@@ -11,11 +11,13 @@ public static void main(String[] args) {
 	System.out.println("Digite um número: ");
 	Num = in.nextInt();
 	
-			if(Num % 2 != 0) {
-				System.out.println("Apenas números POSITIVOS e PARES");
-				System.out.println("Digite um número: ");
-				Num = in.nextInt();
-			}
+	while(Num % 2 != 0 && Num >= 0) {
+
+			System.out.println("Apenas números POSITIVOS e PARES");
+			System.out.println("Digite um número: ");
+			Num = in.nextInt();
+
+	}
 
 
 		
